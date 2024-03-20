@@ -3,12 +3,13 @@ package main
 const a = "Hello, World"
 
 type ID int
+
 var (
-    b bool		= true
-    c int		= 10
-    d float64 	= 1.2
-    e string 	= "Grazi" 
-	f ID 		= 1 
+	b bool    = true
+	c int     = 10
+	d float64 = 1.2
+	e string  = "Grazi"
+	f ID      = 1
 )
 
 func main() {
@@ -20,5 +21,3 @@ func main() {
 	print("\n", e)
 	print("\n", f)
 }
-
-
