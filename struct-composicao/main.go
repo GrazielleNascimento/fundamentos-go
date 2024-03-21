@@ -17,8 +17,8 @@ type Cliente struct {
 	nome  string
 	idade int
 	ativo bool
-	// Address Endereco
-	Endereco
+	// Address Endereco  exemplo de criacao de propriedade do tipo Endereco
+	Endereco // exemplo de composição de struct composta por outra struct
 }
 
 func main() {
